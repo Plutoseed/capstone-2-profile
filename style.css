@@ -1,3 +1,8 @@
+body {
+    margin: 0%;
+
+}
+
 .hero {
     display: flex;
     justify-content: center;
@@ -7,5 +12,21 @@
     font-family: "Stack Sans Notch", sans-serif;
     font-style: normal;
     font-size: 30px;
+    color:#528264;
+   background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(176, 255, 208, 1) 0%, rgba(255, 244, 148, 1) 100%);
 }
 
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile > img {
+  margin-top: 2em;
+  height: 10em;
+  width: 10em;
+  border-radius: 50%;
+}
