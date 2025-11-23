@@ -22,6 +22,7 @@ background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(176, 255, 208,
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: sans-serif;
 }
 
 .profile > img {
@@ -29,4 +30,8 @@ background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(176, 255, 208,
   height: 10em;
   width: 10em;
   border-radius: 50%;
+}
+
+.skills {
+    text-align: center;
 }
